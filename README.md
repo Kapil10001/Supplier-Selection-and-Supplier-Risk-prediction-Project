@@ -79,10 +79,10 @@ This project tackles a real-world supply‑chain challenge by combining machine 
 
 
 ##
-supplier data : Contains Historical data from which our M.L. model learns
-new supplier data : contains data on which we applied our already trained model to predict default probability
-supplier_risk : .py file contains code for part 1 of project that is risk prediction
-supplier_selection_ortools : contains code for part 2 of project that is supplier selection and resource allocation.
+# supplier data : Contains Historical data from which our M.L. model learns
+# new supplier data : contains data on which we applied our already trained model to predict default probability
+# supplier_risk : .py file contains code for part 1 of project that is risk prediction
+# supplier_selection_ortools : contains code for part 2 of project that is supplier selection and resource allocation.
 
 
 
