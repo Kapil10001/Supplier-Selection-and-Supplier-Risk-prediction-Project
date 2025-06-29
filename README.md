@@ -78,7 +78,11 @@ The output (`prob_default`) is used as a penalty in the optimization objective.
 This project tackles a real-world supply‑chain challenge by combining machine learning and mathematical optimization to make smarter, risk‑aware purchasing decisions. First, I built a logistic regression model that analyzes historical supplier data (cost, quality, delivery performance, financial health, etc.) to predict each supplier’s probability of default. Those risk scores then feed into a Mixed‑Integer Linear Programming model (implemented with Google OR‑Tools), which decides both **which** suppliers to engage (binary selection) and **how much** of each product to order from them (continuous quantities). The objective function minimizes the total cost—including discounted purchase prices, fixed administration fees, and risk penalties—while ensuring all product demands are met and no supplier is over‑relied upon. The result is a fully automated, end‑to‑end solution that not only cuts procurement costs but also builds resilience by balancing price advantages with supplier reliability.
 
 
-
+##
+supplier data : Contains Historical data from which our M.L. model learns
+new supplier data : contains data on which we applied our already trained model to predict default probability
+supplier_risk : .py file contains code for part 1 of project that is risk prediction
+supplier_selection_ortools : contains code for part 2 of project that is supplier selection and resource allocation.
 
 
 
